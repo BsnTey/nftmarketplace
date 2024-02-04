@@ -92,3 +92,7 @@ legend {
   display: block;
 }
 /*# sourceMappingURL=reset.css.map */
+
+.border-violet {
+  border: 2px solid #A259FF
+}

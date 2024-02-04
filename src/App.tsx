@@ -7,20 +7,33 @@ import Rocket from "../public/img/RocketLaunch.svg";
 import Space from "../public/img/space.png";
 import Avatar from "../public/img/Avatar.png";
 
-import DogCardMainOne from "../public/img/dog-card-main-one.png";
-import RabbitCardBodyOne from "../public/img/rabbit-card-body-one.png";
-import BearCardBodyOne from "../public/img/bear-card-body-one.png";
-import FoxCardAvatarOne from "../public/img/fox-card-avatar-one.png";
+import DogCardMainOne from "../public/img/trending-collection/dog-card-main-one.png";
+import RabbitCardBodyOne from "../public/img/trending-collection/rabbit-card-body-one.png";
+import BearCardBodyOne from "../public/img/trending-collection/bear-card-body-one.png";
+import FoxCardAvatarOne from "../public/img/trending-collection/fox-card-avatar-one.png";
 
-import MushroomCardMainSecond from "../public/img/mushroom-card-main-second.png";
-import MushroomOneCardBodySecond from "../public/img/mushroom-one-card-body-second.png";
-import MushroomTwoCardBodySecond from "../public/img/mushroom-two-card-body-second.png";
-import AvatarCardAvatarSecond from "../public/img/avatar-card-avatar-second.png";
+import MushroomCardMainSecond from "../public/img/trending-collection/mushroom-card-main-second.png";
+import MushroomOneCardBodySecond from "../public/img/trending-collection/mushroom-one-card-body-second.png";
+import MushroomTwoCardBodySecond from "../public/img/trending-collection/mushroom-two-card-body-second.png";
+import AvatarCardAvatarSecond from "../public/img/trending-collection/avatar-card-avatar-second.png";
 
-import RobotCardMainThirty from "../public/img/robot-card-main-thirty.png";
-import RobotOneCardBodyThirty from "../public/img/robot-one-card-body-thirty.png";
-import RobotTwoCardBodyThirty from "../public/img/robot-two-card-body-thirty.png";
-import RobotCardAvatarThirty from "../public/img/robot-card-avatar-thirty.png";
+import RobotCardMainThirty from "../public/img/trending-collection/robot-card-main-thirty.png";
+import RobotOneCardBodyThirty from "../public/img/trending-collection/robot-one-card-body-thirty.png";
+import RobotTwoCardBodyThirty from "../public/img/trending-collection/robot-two-card-body-thirty.png";
+import RobotCardAvatarThirty from "../public/img/trending-collection/robot-card-avatar-thirty.png";
+
+import CreatorsOne from "../public/img/top-creators/one.png";
+import CreatorsTwo from "../public/img/top-creators/two.png";
+import CreatorsThree from "../public/img/top-creators/three.png";
+import CreatorsFour from "../public/img/top-creators/four.png";
+import CreatorsFive from "../public/img/top-creators/five.png";
+import CreatorsSix from "../public/img/top-creators/six.png";
+import CreatorsSeven from "../public/img/top-creators/seven.png";
+import CreatorsEight from "../public/img/top-creators/eight.png";
+import CreatorsNine from "../public/img/top-creators/nine.png";
+import CreatorsTen from "../public/img/top-creators/ten.png";
+import CreatorsEleven from "../public/img/top-creators/eleven.png";
+import CreatorsTwelve from "../public/img/top-creators/twelve.png";
 
 function App() {
   return (
@@ -133,6 +146,118 @@ function App() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="text-white py-20">
+          <div className="flex justify-between items-end">
+            <div className="font-workSans">
+              <p className="text-4xl font-medium">Top Creators</p>
+              <p className="text-2xl font-light mt-2.5">Checkout Top Rated Creators on the NFT Marketplace</p>
+            </div>
+            <button className="flex gap-x-3 items-center rounded-2xl border-violet border-white font-semibold py-5 px-10 hover:bg-regal-violet transition-colors">
+              <img src={Rocket} alt="Rocket" />
+              View Rankings
+            </button>
+          </div>
+
+          <ul className="mt-16 flex justify-between flex-wrap gap-x-7 gap-y-7">
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">1</p>
+              <img src={CreatorsOne} alt="CreatorsOne" className="rounded-full" />
+              <p className="mt-5 text-2xl ">Keepitreal</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">2</p>
+              <img src={CreatorsTwo} alt="CreatorsTwo" className="rounded-full" />
+              <p className="mt-5 text-2xl ">DigiLab</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">3</p>
+              <img src={CreatorsThree} alt="GravityOne" className="rounded-full" />
+              <p className="mt-5 text-2xl ">GravityOne</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">4</p>
+              <img src={CreatorsFour} alt="CreatorsFour" className="rounded-full" />
+              <p className="mt-5 text-2xl ">Juanie</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">5</p>
+              <img src={CreatorsFive} alt="CreatorsFive" className="rounded-full" />
+              <p className="mt-5 text-2xl ">BlueWhale</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">6</p>
+              <img src={CreatorsSix} alt="CreatorsSix" className="rounded-full" />
+              <p className="mt-5 text-2xl ">Mr Fox</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">7</p>
+              <img src={CreatorsSeven} alt="CreatorsSeven" className="rounded-full" />
+              <p className="mt-5 text-2xl ">Shroomie</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">8</p>
+              <img src={CreatorsEight} alt="CreatorsEight" className="rounded-full" />
+              <p className="mt-5 text-2xl ">Robotica</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">9</p>
+              <img src={CreatorsNine} alt="CreatorsNine" className="rounded-full" />
+              <p className="mt-5 text-2xl ">RustyRobot</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">10</p>
+              <img src={CreatorsTen} alt="CreatorsTen" className="rounded-full" />
+              <p className="mt-5 text-2xl ">Animakid</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">11</p>
+              <img src={CreatorsEleven} alt="CreatorsEleven" className="rounded-full" />
+              <p className="mt-5 text-2xl ">Dotgu</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+            <li className="p-5 bg-main-second rounded-2xl flex flex-col items-center font-workSans relative w-[240px]">
+              <p className="bg-main-base rounded-full w-[30px] h-[30px] flex items-center justify-center text-caption font-space absolute top-5 left-5">12</p>
+              <img src={CreatorsTwelve} alt="CreatorsTwelve" className="rounded-full" />
+              <p className="mt-5 text-2xl ">Ghiblier</p>
+              <p className="mt-1 text-caption text-base">
+                Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
+              </p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
