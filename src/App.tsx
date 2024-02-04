@@ -6,6 +6,7 @@ import User from "../public/img/User.svg";
 import Rocket from "../public/img/RocketLaunch.svg";
 import Space from "../public/img/space.png";
 import Avatar from "../public/img/Avatar.png";
+import Eye from "../public/img/Eye.svg";
 
 import DogCardMainOne from "../public/img/trending-collection/dog-card-main-one.png";
 import RabbitCardBodyOne from "../public/img/trending-collection/rabbit-card-body-one.png";
@@ -34,6 +35,31 @@ import CreatorsNine from "../public/img/top-creators/nine.png";
 import CreatorsTen from "../public/img/top-creators/ten.png";
 import CreatorsEleven from "../public/img/top-creators/eleven.png";
 import CreatorsTwelve from "../public/img/top-creators/twelve.png";
+
+import CategoryArt from "../public/img/browse-categories/Art.png";
+import CategoryCollectibles from "../public/img/browse-categories/Collectibles.png";
+import CategoryMusic from "../public/img/browse-categories/Music.png";
+import CategoryPhotography from "../public/img/browse-categories/Photography.png";
+import CategoryVideo from "../public/img/browse-categories/Video.png";
+import CategoryUtility from "../public/img/browse-categories/Utility.png";
+import CategorySport from "../public/img/browse-categories/Sport.png";
+import CategoryVirtualWorlds from "../public/img/browse-categories/Virtual Worlds.png";
+
+import PaintBrush from "../public/img/browse-categories/PaintBrush.svg";
+import Swatches from "../public/img/browse-categories/Swatches.svg";
+import MusicNotes from "../public/img/browse-categories/MusicNotes.svg";
+import Camera from "../public/img/browse-categories/Camera.svg";
+import VideoCamera from "../public/img/browse-categories/VideoCamera.svg";
+import MagicWand from "../public/img/browse-categories/MagicWand.svg";
+import Basketball from "../public/img/browse-categories/Basketball.svg";
+import Planet from "../public/img/browse-categories/Planet.svg";
+
+import DistantGalaxy from "../public/img/discover/DistantGalaxy.png";
+import Life from "../public/img/discover/Life.png";
+import AstroFiction from "../public/img/discover/AstroFiction.png";
+import MoonDancer from "../public/img/discover/MoonDancer.png";
+import NebulaKid from "../public/img/discover/NebulaKid.png";
+import Spaceone from "../public/img/discover/Spaceone.png";
 
 function App() {
   return (
@@ -96,11 +122,11 @@ function App() {
         </div>
         <div className="text-white py-20">
           <div className="font-workSans">
-            <p className="text-4xl font-medium">Trending Collection</p>
+            <h2 className="text-4xl font-medium">Trending Collection</h2>
             <p className="text-2xl font-light">Checkout Our Weekly Updated Trending Collection.</p>
           </div>
-          <div className="pt-16 flex justify-between">
-            <div>
+          <ul className="pt-16 flex justify-between">
+            <li>
               <img src={DogCardMainOne} alt="DogCardMainOne" className="rounded-2xl" />
               <div className="flex justify-between mt-4">
                 <img src={RabbitCardBodyOne} alt="RabbitCardBodyOne" className="rounded-2xl" />
@@ -114,8 +140,8 @@ function App() {
                 <img src={FoxCardAvatarOne} alt="FoxCardAvatarOne" className="rounded-full" />
                 MrFox
               </div>
-            </div>
-            <div>
+            </li>
+            <li>
               <img src={MushroomCardMainSecond} alt="MushroomCardMainSecond" className="rounded-2xl" />
               <div className="flex justify-between mt-4">
                 <img src={MushroomOneCardBodySecond} alt="MushroomOneCardBodySecond" className="rounded-2xl" />
@@ -129,8 +155,8 @@ function App() {
                 <img src={AvatarCardAvatarSecond} alt="AvatarCardAvatarSecond" className="rounded-full" />
                 Shroomie
               </div>
-            </div>
-            <div>
+            </li>
+            <li>
               <img src={RobotCardMainThirty} alt="RobotCardMainThirty" className="rounded-2xl" />
               <div className="flex justify-between mt-4">
                 <img src={RobotOneCardBodyThirty} alt="RobotOneCardBodyThirty" className="rounded-2xl" />
@@ -144,17 +170,17 @@ function App() {
                 <img src={RobotCardAvatarThirty} alt="RobotCardAvatarThirty" className="rounded-full" />
                 BeKind2Robots
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
 
         <div className="text-white py-20">
           <div className="flex justify-between items-end">
             <div className="font-workSans">
-              <p className="text-4xl font-medium">Top Creators</p>
+              <h2 className="text-4xl font-medium">Top Creators</h2>
               <p className="text-2xl font-light mt-2.5">Checkout Top Rated Creators on the NFT Marketplace</p>
             </div>
-            <button className="flex gap-x-3 items-center rounded-2xl border-violet border-white font-semibold py-5 px-10 hover:bg-regal-violet transition-colors">
+            <button className="flex gap-x-3 items-center justify-center rounded-2xl border-violet border-white font-semibold py-5 w-48 hover:bg-regal-violet transition-colors">
               <img src={Rocket} alt="Rocket" />
               View Rankings
             </button>
@@ -256,6 +282,128 @@ function App() {
               <p className="mt-1 text-caption text-base">
                 Total Sales: <span className="text-white font-space font-medium">34.53 ETH</span>
               </p>
+            </li>
+          </ul>
+        </div>
+
+        <div className="text-white py-20">
+          <h2 className="font-workSans text-4xl font-medium">Browse Categories</h2>
+          <ul className="mt-16 flex justify-between flex-wrap gap-x-7 gap-y-7">
+            <li className="rounded-2xl overflow-hidden relative">
+              <img src={CategoryArt} alt="CategoryArt" className="blur-sm " />
+              <img src={PaintBrush} alt="PaintBrush" className="absolute top-[70px] right-[70px]" />
+              <h3 className="bg-main-second rounded-b-2xl py-5 px-7 font-workSans text-2xl font-medium">Art</h3>
+            </li>
+            <li className="rounded-2xl overflow-hidden relative">
+              <img src={CategoryCollectibles} alt="CategoryCollectibles" className="blur-sm " />
+              <img src={Swatches} alt="Swatches" className="absolute top-[70px] right-[70px]" />
+              <h3 className="bg-main-second rounded-b-2xl py-5 px-7 font-workSans text-2xl font-medium">Collectibles</h3>
+            </li>
+            <li className="rounded-2xl overflow-hidden relative">
+              <img src={CategoryMusic} alt="CategoryMusic" className="blur-sm " />
+              <img src={MusicNotes} alt="MusicNotes" className="absolute top-[70px] right-[70px]" />
+              <h3 className="bg-main-second rounded-b-2xl py-5 px-7 font-workSans text-2xl font-medium">Music</h3>
+            </li>
+            <li className="rounded-2xl overflow-hidden relative">
+              <img src={CategoryPhotography} alt="CategoryPhotography" className="blur-sm " />
+              <img src={Camera} alt="Camera" className="absolute top-[70px] right-[70px]" />
+              <h3 className="bg-main-second rounded-b-2xl py-5 px-7 font-workSans text-2xl font-medium">Photography</h3>
+            </li>
+            <li className="rounded-2xl overflow-hidden relative">
+              <img src={CategoryVideo} alt="CategoryVideo" className="blur-sm " />
+              <img src={VideoCamera} alt="VideoCamera" className="absolute top-[70px] right-[70px]" />
+              <h3 className="bg-main-second rounded-b-2xl py-5 px-7 font-workSans text-2xl font-medium">Video</h3>
+            </li>
+            <li className="rounded-2xl overflow-hidden relative">
+              <img src={CategoryUtility} alt="CategoryUtility" className="blur-sm " />
+              <img src={MagicWand} alt="MagicWand" className="absolute top-[70px] right-[70px]" />
+              <h3 className="bg-main-second rounded-b-2xl py-5 px-7 font-workSans text-2xl font-medium">Utility</h3>
+            </li>
+            <li className="rounded-2xl overflow-hidden relative">
+              <img src={CategorySport} alt="CategorySport" className="blur-sm " />
+              <img src={Basketball} alt="Basketball" className="absolute top-[70px] right-[70px]" />
+              <h3 className="bg-main-second rounded-b-2xl py-5 px-7 font-workSans text-2xl font-medium">Sport</h3>
+            </li>
+            <li className="rounded-2xl overflow-hidden relative">
+              <img src={CategoryVirtualWorlds} alt="CategoryVirtualWorlds" className="blur-sm " />
+              <img src={Planet} alt="Planet" className="absolute top-[70px] right-[70px]" />
+              <h3 className="bg-main-second rounded-b-2xl py-5 px-7 font-workSans text-2xl font-medium">Virtual Worlds</h3>
+            </li>
+          </ul>
+        </div>
+
+        <div className="text-white py-20">
+          <div className="flex justify-between items-end">
+            <div className="font-workSans">
+              <h2 className="text-4xl font-medium">Discover More NFTs</h2>
+              <p className="text-2xl font-light mt-2.5">Explore New Trending NFTs</p>
+            </div>
+            <button className="flex gap-x-3 items-center justify-center rounded-2xl border-violet border-white font-semibold py-5 w-48 hover:bg-regal-violet transition-colors">
+              <img src={Eye} alt="Eye" />
+              See All
+            </button>
+          </div>
+
+          <ul className="mt-16 flex justify-between">
+            <li className="rounded-2xl">
+              <img src={DistantGalaxy} alt="DistantGalaxy" />
+              <div className="px-7 py-5 bg-main-second rounded-b-2xl">
+                <h3 className="font-workSans text-2xl font-medium">Distant Galaxy</h3>
+                <div className="mt-1 flex gap-x-4 items-center font-space">
+                  <img src={MoonDancer} alt="MoonDancer" />
+                  MoonDancer
+                </div>
+                <div className="mt-8 flex justify-between font-space">
+                  <div>
+                    <h4 className="text-caption text-xs">Price</h4>
+                    <p className="mt-2">1.63 ETH</p>
+                  </div>
+                  <div className="flex flex-col items-end">
+                    <h4 className="text-caption text-xs">Highest Bid</h4>
+                    <p className="mt-2">0.33 wETH</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="rounded-2xl">
+              <img src={Life} alt="Life" />
+              <div className="px-7 py-5 bg-main-second rounded-b-2xl">
+                <h3 className="font-workSans text-2xl font-medium">Distant Galaxy</h3>
+                <div className="mt-1 flex gap-x-4 items-center font-space">
+                  <img src={NebulaKid} alt="NebulaKid" />
+                  NebulaKid
+                </div>
+                <div className="mt-8 flex justify-between font-space">
+                  <div>
+                    <h4 className="text-caption text-xs">Price</h4>
+                    <p className="mt-2">1.63 ETH</p>
+                  </div>
+                  <div className="flex flex-col items-end">
+                    <h4 className="text-caption text-xs">Highest Bid</h4>
+                    <p className="mt-2">0.33 wETH</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className="rounded-2xl">
+              <img src={AstroFiction} alt="AstroFiction" />
+              <div className="px-7 py-5 bg-main-second rounded-b-2xl">
+                <h3 className="font-workSans text-2xl font-medium">Distant Galaxy</h3>
+                <div className="mt-1 flex gap-x-4 items-center font-space">
+                  <img src={Spaceone} alt="Spaceone" />
+                  Spaceone
+                </div>
+                <div className="mt-8 flex justify-between font-space">
+                  <div>
+                    <h4 className="text-caption text-xs">Price</h4>
+                    <p className="mt-2">1.63 ETH</p>
+                  </div>
+                  <div className="flex flex-col items-end">
+                    <h4 className="text-caption text-xs">Highest Bid</h4>
+                    <p className="mt-2">0.33 wETH</p>
+                  </div>
+                </div>
+              </div>
             </li>
           </ul>
         </div>
