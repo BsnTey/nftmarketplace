@@ -96,3 +96,7 @@ legend {
 .border-violet {
   border: 2px solid #a259ff;
 }
+
+.border-caption {
+  border-top: 1px solid #858584;
+}
