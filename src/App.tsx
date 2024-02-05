@@ -1,8 +1,5 @@
 import "./App.css";
 
-import LogoName from "../public/img/NFT Marketplace.png";
-import Storefront from "../public/img/Storefront.svg";
-import User from "../public/img/User.svg";
 import Rocket from "../public/img/RocketLaunch.svg";
 import Space from "../public/img/space.png";
 import Avatar from "../public/img/Avatar.png";
@@ -72,33 +69,21 @@ import DiscordLogo from "../public/img/social-logo/DiscordLogo.svg";
 import InstagramLogo from "../public/img/social-logo/InstagramLogo.svg";
 import TwitterLogo from "../public/img/social-logo/TwitterLogo.svg";
 import YoutubeLogo from "../public/img/social-logo/YoutubeLogo.svg";
+import { Header } from "./components/Header";
+import { Logo } from "./components/Logo";
 
 function App() {
   return (
     <div>
       <div className="bg-main-base">
-        <div className="container">
-          <nav className="flex justify-between px-12.5 py-4">
-            <div className="flex gap-x-3 items-center">
-              <img src={Storefront} alt="Storefront" />
-              <img src={LogoName} alt="LogoName" className="h-5" />
-            </div>
-            <div className="flex gap-x-2.5 text-white text-base font-workSans">
-              <button className="px-3 py-5">Marketplace</button>
-              <button className="px-3 py-5">Rankings</button>
-              <button className="px-3 py-5">Connect a wallet</button>
-              <button className="flex gap-x-3 items-center px-7 py-5 bg-main-action rounded-2xl drop-shadow-lg">
-                <img src={User} alt="User" />
-                Sign Up
-              </button>
-            </div>
-          </nav>
+        <div className="container py-4">
+          <Header />
         </div>
         <div className="container max-w-[1050px]">
           <div className="py-20">
             <div className="flex justify-between">
               <div className="flex flex-col max-w-[510px]">
-                <p className="font-workSans text-6xl text-white">Discover Digital Srt & Collect NFTs</p>
+                <p className="font-workSans text-6xl text-white">Discover Digital Art & Collect NFTs</p>
                 <p className="font-workSans font-light text-white text-2xl mt-5 pr-8">
                   NFT marketplace UI Created With Anima For Figma. Collect, Buy And Sell Art From More Than 20k NFT Artists.
                 </p>
@@ -522,10 +507,7 @@ function App() {
           <div className="pt-10 pb-10 text-[#CCCCCC] font-workSans">
             <ul className="px-8 pb-8 flex justify-between">
               <li>
-                <div className="flex gap-x-3 items-center">
-                  <img src={Storefront} alt="Storefront" />
-                  <h2 className="font-space text-2xl text-white font-bold">NFT Marketplace</h2>
-                </div>
+                <Logo />
                 <ul className="mt-6 w-[240px]">
                   <li>
                     <a href="#">NFT marketplace UI created with Anima for Figma.</a>
