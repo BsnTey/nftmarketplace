@@ -1,6 +1,7 @@
-import Rocket from "../public/img/RocketLaunch.svg";
+import Rocket from "../../public/img/RocketLaunch.svg";
 import Space from "../../public/img/space.png";
 import Avatar from "../../public/img/Avatar.png";
+import { Button } from "./Button";
 
 export const Discover = () => {
   return (
@@ -10,10 +11,7 @@ export const Discover = () => {
         <p className="font-workSans font-light text-white text-2xl mt-5 pr-8">
           NFT marketplace UI Created With Anima For Figma. Collect, Buy And Sell Art From More Than 20k NFT Artists.
         </p>
-        <button className="mt-7 py-5 px-14 flex items-center gap-x-3 rounded-2xl w-fit-content text-white bg-main-action">
-          <img src={Rocket} alt="Rocket" />
-          Get Started
-        </button>
+        <Button imgPath={Rocket} text="Get Started" className="!px-12 mt-7 drop-shadow-lg" />
         <div className="flex mt-7 gap-x-7 text-white font-space text-3xl">
           <div className="w-[150px]">
             <p>240k+</p>
@@ -42,5 +40,3 @@ export const Discover = () => {
     </div>
   );
 };
-
-

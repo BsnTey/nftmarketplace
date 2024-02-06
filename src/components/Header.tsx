@@ -10,7 +10,7 @@ export const Header = () => {
                 <button className="px-3 py-5">Marketplace</button>
                 <button className="px-3 py-5">Rankings</button>
                 <button className="px-3 py-5">Connect a wallet</button>
-                <Button imgPath={User} text="Sign Up" />
+                <Button imgPath={User} text="Sign Up" className="drop-shadow-lg" />
             </div>
         </nav>
     )
