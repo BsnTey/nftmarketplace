@@ -12,7 +12,7 @@ export default {
       },
       colors: {
         "regal-violet": "#A259FF",
-        caption: "#858584",
+        greyDark: "#858584"
       },
       borderRadius: {
         "2xl": "1.25rem",

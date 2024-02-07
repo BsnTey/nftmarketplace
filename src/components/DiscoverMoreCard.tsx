@@ -7,13 +7,14 @@ export interface DiscoverMoreCardProps {
   name: string;
   price: string;
   bid: string;
+  bgCard?: string;
 }
 
-export const DiscoverMoreCard: FC<DiscoverMoreCardProps> = ({ img, avatar, title, name, price, bid }: DiscoverMoreCardProps): JSX.Element => {
+export const DiscoverMoreCard: FC<DiscoverMoreCardProps> = ({ img, avatar, title, name, price, bid, bgCard }: DiscoverMoreCardProps): JSX.Element => {
   return (
     <li className="rounded-2xl">
       <img src={img} alt="DistantGalaxy" />
-      <div className="px-7 py-5 bg-main-second rounded-b-2xl">
+      <div className={"px-7 py-5  rounded-b-2xl " + (bgCard ? bgCard : "bg-main-second")}>
         <h3 className="font-workSans text-2xl font-medium">{title}</h3>
         <div className="mt-1 flex gap-x-4 items-center font-space">
           <img src={avatar} alt="MoonDancer" />

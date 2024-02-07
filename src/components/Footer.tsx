@@ -9,7 +9,7 @@ import { SubscribeForm } from "./SubscribeForm";
 
 export const Footer: FC = (): JSX.Element => {
   return (
-    <div className="bg-main-second">
+    <div className="bg-main-second border-top-darkGreyCust">
       <div className="container max-w-[1050px]">
         <div className="pt-10 pb-10 text-[#CCCCCC] font-workSans">
           <ul className="px-8 pb-8 flex justify-between">

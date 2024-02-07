@@ -1,41 +1,12 @@
 import { FC } from "react";
 
 import Eye from "../../public/img/Eye.svg";
-import DistantGalaxy from "../../public/img/discover/DistantGalaxy.png";
-import Life from "../../public/img/discover/Life.png";
-import AstroFiction from "../../public/img/discover/AstroFiction.png";
-import MoonDancer from "../../public/img/discover/MoonDancer.png";
-import NebulaKid from "../../public/img/discover/NebulaKid.png";
-import Spaceone from "../../public/img/discover/Spaceone.png";
-import { Button } from "./Button";
-import { DiscoverMoreCard, DiscoverMoreCardProps } from "./DiscoverMoreCard";
 
-const discoverMoreList: DiscoverMoreCardProps[] = [
-  {
-    img: DistantGalaxy,
-    avatar: MoonDancer,
-    title: "Distant Galaxy",
-    name: "MoonDancer",
-    price: "1.63",
-    bid: "0.33",
-  },
-  {
-    img: Life,
-    avatar: NebulaKid,
-    title: "Life On Edena",
-    name: "NebulaKid",
-    price: "1.63",
-    bid: "0.33",
-  },
-  {
-    img: AstroFiction,
-    avatar: Spaceone,
-    title: "AstroFiction",
-    name: "Spaceone",
-    price: "1.63",
-    bid: "0.33",
-  },
-];
+import { Button } from "./Button";
+import { DiscoverMoreCard } from "./DiscoverMoreCard";
+import { discoverMoreList } from "../mock/mock";
+
+
 
 export const DiscoverMore: FC = (): JSX.Element => {
   return (
