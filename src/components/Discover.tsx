@@ -1,9 +1,11 @@
+import { FC } from "react";
+
 import Rocket from "../../public/img/RocketLaunch.svg";
 import Space from "../../public/img/space.png";
 import Avatar from "../../public/img/Avatar.png";
 import { Button } from "./Button";
 
-export const Discover = () => {
+export const Discover: FC = (): JSX.Element => {
   return (
     <div className="flex justify-between">
       <div className="flex flex-col max-w-[510px]">

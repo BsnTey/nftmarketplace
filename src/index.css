@@ -91,7 +91,6 @@ label {
 legend {
   display: block;
 }
-/*# sourceMappingURL=reset.css.map */
 
 .border-violet {
   border: 2px solid #a259ff;
@@ -99,4 +98,8 @@ legend {
 
 .border-caption {
   border-top: 1px solid #858584;
+}
+
+.svg-fill-grey {
+  filter: brightness(0) saturate(100%) invert(87%) sepia(0%) saturate(60%) hue-rotate(152deg) brightness(83%) contrast(110%);
 }
