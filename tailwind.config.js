@@ -12,7 +12,8 @@ export default {
       },
       colors: {
         "regal-violet": "#A259FF",
-        greyDark: "#858584"
+        greyDark: "#858584",
+        green: "#00AC4F",
       },
       borderRadius: {
         "2xl": "1.25rem",

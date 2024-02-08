@@ -22,11 +22,11 @@ export const DiscoverMoreCard: FC<DiscoverMoreCardProps> = ({ img, avatar, title
         </div>
         <div className="mt-8 flex justify-between font-space">
           <div>
-            <h4 className="text-caption text-xs">Price</h4>
+            <h4 className="text-greyDark text-xs">Price</h4>
             <p className="mt-2">{price} ETH</p>
           </div>
           <div className="flex flex-col items-end">
-            <h4 className="text-caption text-xs">Highest Bid</h4>
+            <h4 className="text-greyDark text-xs">Highest Bid</h4>
             <p className="mt-2">{bid} wETH</p>
           </div>
         </div>

@@ -55,6 +55,24 @@ import Robotica from "../../public/img/marketplace/Robotica.png";
 import SpaceTravel from "../../public/img/marketplace/SpaceTravel.png";
 import SunsetDimension from "../../public/img/marketplace/SunsetDimension.png";
 
+import AlfredoSeptimus from "../../public/img/rankings/AlfredoSeptimus.png";
+import AllisonTorff from "../../public/img/rankings/AllisonTorff.png";
+import AngelLubin from "../../public/img/rankings/AngelLubin.png";
+import DavisFranci from "../../public/img/rankings/DavisFranci.png";
+import DavisWorkman from "../../public/img/rankings/DavisWorkman.png";
+import JaydonEkstromBothman from "../../public/img/rankings/JaydonEkstromBothman.png";
+import JocelynWestervelt from "../../public/img/rankings/JocelynWestervelt.png";
+import KiannaDonin from "../../public/img/rankings/KiannaDonin.png";
+import KiannaStanton from "../../public/img/rankings/KiannaStanton.png";
+import LindseyLipshutz from "../../public/img/rankings/LindseyLipshutz.png";
+import LiviaRosser from "../../public/img/rankings/LiviaRosser.png";
+import LydiaCulhane from "../../public/img/rankings/LydiaCulhane.png";
+import MariaRosser from "../../public/img/rankings/MariaRosser.png";
+import PhillipLipshutz from "../../public/img/rankings/PhillipLipshutz.png";
+import RandyCarder from "../../public/img/rankings/RandyCarder.png";
+import RaynaBator from "../../public/img/rankings/RaynaBator.png";
+import RubenCarder from "../../public/img/rankings/RubenCarder.png";
+import { RankingsCardProps } from "../components/RankingsCard";
 
 export const trendingCollectionList: TrendingCardProps[] = [
   {
@@ -271,3 +289,147 @@ export const marketplaceList: DiscoverMoreCardProps[] = [
     bid: "0.33",
   },
 ];
+
+
+export const rankingsList: RankingsCardProps[] = [
+  {
+    avatar: JaydonEkstromBothman,
+    name: "Jaydon Ekstrom Bothman",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: RubenCarder,
+    name: "Ruben Carder",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: AlfredoSeptimus,
+    name: "Alfredo Septimus",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: DavisFranci,
+    name: "Davis Franci",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: LiviaRosser,
+    name: "Livia Rosser",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: KiannaDonin,
+    name: "Kianna Donin",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: PhillipLipshutz,
+    name: "Phillip Lipshutz",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: MariaRosser,
+    name: "Maria Rosser",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: KiannaStanton,
+    name: "Kianna Stanton",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: AngelLubin,
+    name: "Angel Lubin",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: AllisonTorff,
+    name: "Allison Torff",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: DavisWorkman,
+    name: "Davis Workman",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: LindseyLipshutz,
+    name: "Lindsey Lipshutz",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: RandyCarder,
+    name: "Randy Carder",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: LydiaCulhane,
+    name: "Lydia Culhane",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: RaynaBator,
+    name: "Rayna Bator",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: JocelynWestervelt,
+    name: "Jocelyn Westervelt",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: JaydonEkstromBothman,
+    name: "Marilyn Torff",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: AngelLubin,
+    name: "Skylar Levin",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  },
+  {
+    avatar: AlfredoSeptimus,
+    name: "Terry Dorwart",
+    change: "+1.41%",
+    nftsSold: 602,
+    volume: "12.4 ETH"
+  }
+]

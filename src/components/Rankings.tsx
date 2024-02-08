@@ -60,12 +60,8 @@ export const Rankings: FC = (): JSX.Element => {
             placeholder={"TabsHeader"}
           ></TabsHeader>
 
-            <div>
-
-            </div>
-
-
           <TabsBody
+            className="pb-10"
             children={[
               <TabPanel key={"Today"} value={"Today"}>
                 <RankingsTable />
