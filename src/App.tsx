@@ -8,6 +8,7 @@ import { NotFound } from "./components/NotFound";
 import { Layout } from "./components/Layout";
 import { ConnectWallet } from "./components/ConnectWallet";
 import { Marketplace } from "./components/Marketplace";
+import { Rankings } from "./components/Rankings";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="register" element={<Register />} />
           <Route path="connect" element={<ConnectWallet />} />
           <Route path="marketplace" element={<Marketplace />} />
+          <Route path="rankings" element={<Rankings />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
