@@ -109,9 +109,8 @@ legend {
 }
 
 .border-top-darkGreyCust {
-  border-top: 2px solid #2B2B2B;
+  border-top: 2px solid #2b2b2b;
 }
-
 
 .border-greyCust {
   border: 1px solid #3b3b3b;
@@ -119,4 +118,8 @@ legend {
 
 .svg-fill-grey {
   filter: brightness(0) saturate(100%) invert(87%) sepia(0%) saturate(60%) hue-rotate(152deg) brightness(83%) contrast(110%);
+}
+
+.profile__avatar {
+  border: 2px solid #2b2b2b;
 }

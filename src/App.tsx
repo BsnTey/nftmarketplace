@@ -9,6 +9,7 @@ import { Layout } from "./components/Layout";
 import { ConnectWallet } from "./components/ConnectWallet";
 import { Marketplace } from "./components/Marketplace";
 import { Rankings } from "./components/Rankings";
+import { Profile } from "./components/Profile";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage />} />
+          <Route path="profle" element={<Profile />} />
           <Route path="register" element={<Register />} />
           <Route path="connect" element={<ConnectWallet />} />
           <Route path="marketplace" element={<Marketplace />} />
