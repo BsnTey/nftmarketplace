@@ -4,8 +4,7 @@ import Rocket from "../../public/img/RocketLaunch.svg";
 import { CreatorCard } from "./CreatorCard";
 import { Button } from "./Button";
 import { topCreatorsList } from "../mock/mock";
-
-
+import { Link } from "react-router-dom";
 
 export const TopCreators: FC = (): JSX.Element => {
   return (
@@ -15,7 +14,9 @@ export const TopCreators: FC = (): JSX.Element => {
           <h2 className="text-4xl font-medium">Top Creators</h2>
           <p className="text-2xl font-light mt-2.5">Checkout Top Rated Creators on the NFT Marketplace</p>
         </div>
-        <Button imgPath={Rocket} text={"View Rankings"} className="!px-12 border-violet bg-main-base hover:bg-regal-violet transition-colors" />
+        <Link to="/rankings">
+          <Button imgPath={Rocket} text={"View Rankings"} className="!px-12 border-violet bg-main-base hover:bg-regal-violet transition-colors" />
+        </Link>
       </div>
 
       <ul className="mt-16 flex justify-between flex-wrap gap-x-7 gap-y-7 text-white">

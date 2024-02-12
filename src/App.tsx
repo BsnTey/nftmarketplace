@@ -10,6 +10,7 @@ import { ConnectWallet } from "./components/ConnectWallet";
 import { Marketplace } from "./components/Marketplace";
 import { Rankings } from "./components/Rankings";
 import { Profile } from "./components/Profile";
+import { NftCard } from "./components/NftCard";
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<MainPage />} />
-          <Route path="profle" element={<Profile />} />
+          <Route path="profile" element={<Profile />} />
           <Route path="register" element={<Register />} />
+          <Route path="nft" element={<NftCard />} />
           <Route path="connect" element={<ConnectWallet />} />
           <Route path="marketplace" element={<Marketplace />} />
           <Route path="rankings" element={<Rankings />} />

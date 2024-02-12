@@ -19,7 +19,7 @@ export const MagicMashrooms: FC = (): JSX.Element => {
               <Button imgPath={Eye} text={"See NFT"} className="!px-12 bg-white !text-black" />
             </div>
 
-            <AuctionTimer hours={"59"} minutes={"59"} seconds={"59"} />
+            <AuctionTimer initialHours={59} initialMinutes={59} initialSeconds={59} />
           </div>
         </div>
       </div>
